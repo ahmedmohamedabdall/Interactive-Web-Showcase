@@ -1,0 +1,56 @@
+h1 h2 h3{
+     font-size: 32px;
+}
+.navbar-deault{
+    background-color: #fff;
+    border: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.navbar-brand{
+    color: #000;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+.img-1{
+    width: 90%;
+}
+.testmony{
+    background-color: #f1f1f1f1;
+    
+}
+.testmony p{
+    font-size: 32px;
+}
+.testmony .customer{
+    font-size: 25px;
+}
+.img-2{
+    width:90%;
+  
+}
+.conact{
+    background-image: url(../project-3/img/4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    background-position: center ;
+    margin-left: 20px;
+    
+    padding:50px 0 30px 0;
+
+    
+}
+
+@media(max-width:768px){
+    body{
+        padding: 0;
+
+    }
+    .testmony{
+        width: 100%;
+        margin-left: 20px;
+    }
+}
